@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>声明</title>
+    <link rel="stylesheet" href="static/css/index.css">
+</head>
+    <style>
+        body{
+            background: url(../static/img.png) no-repeat;
+            background-size: cover;
+        }
+        a{
+            text-decoration: none;
+        }
+        .sm{
+            max-width: 1180px;
+            height: 500px;
+            /* background-color: #fff; */
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+
+        }
+        .sm1{
+            width: 60%;
+            height: 450px;
+            position: relative;
+            top: 25px;
+            /* background: rgb(218, 105, 105); */
+            border-radius: 20px;
+            overflow: auto;
+            
+        }
+        .sm1 p{
+            color: rgb(249, 247, 247);
+            font-size: 40px;
+        }
+        .sm1 span{
+            color: rgb(251, 249, 249);
+            font-size: 35px;
+        }
+        .sm2{
+            width: 35%;
+            height: 450px;
+            position: relative;
+            top: 25px;
+            /* background: rgb(114, 104, 104); */
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .sm2 img{
+            width: 100%;
+            border-radius: 20px;
+        }
+        .wz{
+            margin: 500px;
+        }
+        .enwu{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .wrap{
+            width: 1000px;
+            position: relative;
+            top: 100px;
+            place-items: center;
+        }
+        .wrap::after{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            display: inline-block;
+            width: 5px;
+            height: 1000px;
+            background-color: rgba(255,255,255,.5);
+        }
+        .box4{
+            position: relative;
+            width: 100%;
+            height: 120px;
+            margin-bottom: 100px;
+            display: flex;
+            justify-content: space-between;
+            place-items: center;
+            
+            
+        }
+        .left,.right{
+            position: relative;
+            width: 40%;
+            height: 120px;
+            border-radius: 15px;
+            text-align: center;
+            color: rgb(250, 247, 247);
+            /* background-color: rgba(255,255,255,.5); */
+        }
+        .box4:nth-child(even) .left{
+            background-color: rgba(255,255,255,.4);
+            box-shadow: 0 0 10px rgba(0,0,0,.3);
+        }
+        .box4:nth-child(odd) .right{
+            background-color: rgba(255,255,255,.4);
+            box-shadow: 0 0 10px rgba(0,0,0,.3);
+        }
+        .center1{
+            width: 15%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .center1>span{
+            width: 120px;
+            border-radius: 10px;
+            text-align:center;
+            font: 900 24px '';
+            line-height: 50px;
+            
+            background-color: #fff;
+        }
+
+    </style>
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="/">首页</a></li>
+            <li><a href="/hdsc">初见</a></li>
+            <li><a href="/share">分享</a></li>
+        </ul>
+        <div class="enwu">
+            <div class="box1">
+                <h1 style="color:rgb(234, 240, 187) ;">声明</h1>
+                <p style="color:rgb(242, 245, 179) ;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    本网页参考了一定的网页，由于技术有限暂时只能做成这样，
+                    主要是分享一些日常中遇到的比较喜欢的东西，页面内容比较杂，
+                    请老师见谅！
+                </p>
+            </div>
+       </div>
+    </div>
+    <div class="enwu">
+        <div class="wrap">
+            <div class="box4">
+                <div class="left"></div>
+                <div class="center1"><span>
+                    2018
+                </span></div>
+                <div class="right">Hazy I do not know what to do, 
+                    day and night miss the people I like, confusion 
+                    has become my biggest enemy, let me continue to 
+                    degenerate
+                </div>
+            </div>
+       
+            <div class="box4">
+                <div class="left">I gradually became addicted to the 
+                    game world, trying to come true, but the pressure 
+                    of learning and social society pulled me back again,
+                    tormenting me constantly
+                </div>
+                <div class="center1"><span>
+                    2019
+                </span></div>
+                <div class="right"></div>
+            </div>
+
+            <div class="box4">
+                <div class="left"></div>
+                <div class="center1"><span>
+                    2020
+                </span></div>
+                <div class="right">Depression and loneliness occupied 
+                    me, in a casual attempt to fitness can release 
+                    introverted depression, so I fell in love with 
+                    fitness, determined to go on
+                </div>
+            </div>
+
+            <div class="box4">
+                <div class="left">Fitness let me out of depression, 
+                    tearing pain can let me feel I'm still alive, 
+                    make me stand up in the swamp, I began a 
+                    self-discipline life
+                </div>
+                <div class="center1"><span>
+                    2021
+                </span></div>
+                <div class="right"></div>
+            </div>
+
+            <div class="box4">
+                <div class="left"></div>
+                <div class="center1"><span>
+                    2022
+                </span></div>
+                <div class="right">Self discipline fascinates me 
+                    with learning. I need to be strong, I need to 
+                    be respected by others, and I need money</div>
+            </div>
+        </div>
+    </div>
+       
+</body>
+</html>

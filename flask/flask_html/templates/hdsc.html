@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>初见</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    .shell{
+        height: 100vh;
+        overflow-x: hidden;
+        perspective: 3px;
+    }
+    .shell div{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-style: 30px;
+        letter-spacing: 2px;
+    }
+    .image{
+        transform: translateZ(-1px) scale(1.6);
+        background-size: cover;
+        height: 100vh;
+        z-index: -1;
+    }
+    .text{
+        height: 50vh;
+        background-color: #fff;
+    }
+    .text h1{
+        color: #000;
+    }
+    .heading{
+        z-index: -1;
+        transform: translateY(-30vh) translateZ(1px);
+        color: #fff;
+        font-size: 30px;
+    }
+</style>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="/">首页</a></li>
+            <li><a href="/hdsc">初见</a></li>
+            <li><a href="/share">分享</a></li>
+        </ul>
+    </div>
+    <div class="shell">
+        <div class="image" style="background-image:url(static/hdscImg/IMG_8124.jpg);"></div>
+        <div class="heading">
+            <h1>I've been walking </h1>
+        </div>
+        <div class="text">
+            <h1>Alone for so long</h1>
+        </div>
+
+        <div class="image" style="background-image:url(static/hdscImg/IMG_8125.jpg);"></div>
+        <div class="heading">
+            <h1>Don't feel lonely</h1>
+        </div>
+        <div class="text">
+            <h1>Beacuse at the end of the road </h1>
+        </div>
+
+        <div class="image" style="background-image:url(static/hdscImg/IMG_8127.jpg);"></div>
+        <div class="heading">
+            <h1>Somenone has been waiting </h1>
+        </div>
+        <div class="text">
+            <h1>For you</h1>
+        </div>
+
+        <div class="image" style="background-image:url(static/hdscImg/IMG_8128.jpg);"></div>
+        <div class="heading">
+            <h1> Keep moving...</h1>
+        </div>
+    </div>
+</body>
+
+</html>

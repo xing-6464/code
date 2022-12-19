@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>登录注册</title>
+    <link rel="stylesheet" href="static/css/style.css"/>
+    <script src="static/js/jquery.min.js"></script>
+    <style>
+        button {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2>登录</h2>
+        <form action="/login" method="post">
+            <div class="input-box">
+                <label>账号</label>
+                <input id="account_number" name="account_number" type="word" value="" />
+            </div>
+            <div class="input-box">
+                <label>密码</label>
+                <input id="password" name="password" type="password" value="" />
+            </div>
+            <div class="btn-box">
+            <a href="/register">注册账号</a>
+            <div>
+                <button>登录</button>
+            </div>
+        </form>
+        </div>
+    </div>
+</body>
+</html>

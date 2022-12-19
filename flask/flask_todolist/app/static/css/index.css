@@ -1,0 +1,17 @@
+html {
+    background-color: #2578b5;
+}
+
+.layout {
+    background-color: #2578b5;
+}
+
+#app {
+    text-align: center;
+    color: #eea5d1;
+    margin-top: 60px;
+}
+
+.done {
+    text-decoration: line-through;
+}
