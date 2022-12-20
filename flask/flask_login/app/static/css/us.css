@@ -1,0 +1,58 @@
+.header {height: 60px;
+    margin-top: -10px;
+    width: 1530px;
+    margin-left: -20px;}
+ .lanmu{float: left;
+    margin-left: 40px;}
+ 
+
+.body{height: 786px;
+    margin-top: 30px;}
+
+.pic {float: left;
+    width: 222px;
+    height: 322px;
+    margin-top: 400px;
+    margin-left: -7px;}
+.pic img{width: 100%;height: 100%;}
+
+.content1 {float: left;
+    width: 227px;
+    height: 331px;
+    margin-right: 37px;
+    margin-left: -119px;}
+.content1 img{width: 100%;height: 100%;}
+
+.content2 {float: left;
+    width: 343px;
+    height: 507px;
+    margin-top: 150px;
+    margin-left: -110px;}
+.content2 img{width: 100%;height: 100%;}
+
+.content3 {float: left;
+    width: 227px;
+    height: 340px;
+    margin-top: 344px;
+    margin-left: -40px;}
+.content3 img{width: 100%;height: 100%;}
+
+.content4 {float: left;
+    width: 227px;
+    height: 328px;
+    margin-left: -97px;
+    margin-top: 1px;}
+.content4 img{width: 100%;height: 100%;}
+
+.content5{float: right;width:500px;height: auto;margin-top: px;}
+
+.form {float: right;
+    width: 500px;
+    height: 559px;
+    margin-top: 30px;}
+.input_1{width: 100%;}
+.input_2{width: 100%;}
+.name{width: 100%;
+    height: 50%;}
+
+.footer { height: 50px;}

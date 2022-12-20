@@ -1,0 +1,55 @@
+   /*header*/
+   .header {height: 60px;
+      margin-top: -10px;
+      width: 1530px;
+      margin-left: -20px;}
+   .lanmu{float: left;
+      margin-left: 40px;}
+   .search{float: left;
+      margin-left: 142px;
+      height: 37px;
+      width: 331px;
+      border-radius: 20px;}
+   
+   .btn {height: 27px;
+      width: 28px;
+      position: absolute;
+      background-color: white;
+      top: 24px;
+      left: 285px;
+      border: 3px solid gray;
+      outline: none;
+      cursor: pointer;
+      border-radius: 25px;
+      margin-left: 626px;
+  }
+
+   /*主体*/
+  
+   .E {height: 700px; margin-top: 25px;}
+   .left1 {float: left; width: 356px;height: 735px; margin-left: 30;}
+   .left1 img{width:100%;height: 100%;}
+   .content1 {border: 1px solid white;float: left;margin-left: 230px;margin-top: 70px;height: 112px;width: 759px;}
+   .content2 {float: left;width: 527px;height: 125px;margin-left: 161px;border: 5px solid white;margin-top: -150;}
+
+   .J{height: 300px;}
+   .left2 {border: 1px solid white;float: left;width: 596px;height: 112px;margin-top: -300px;margin-left: 90px;}
+   .right2 {float: right; width: 300px; height: 283px; margin-right: 50px;margin-top: -400px;}
+   .right2 img{width:100%; height: 100%; width: 368px; height: 334px;}
+   .content3 {border: 5px solid white;float: left;width: 272px;height: 224px;margin-top: -529px;margin-left: 823px;}
+
+   .A {height: 264px;}
+   .left3 {float: left;width: 372px;height: 496px;margin-left: 673px;margin-top: -265px;}
+   .left3 img{width: 372px;height: 497px;}
+   .content5 {border: 5px solid white;float: left;width: 616px; height: 136px; margin-top: -156px; margin-left: 24px;}
+   .content6 {border: 5px solid white;float: left;width: 272px;height: 293px;margin-top: -338px; margin-left: 263px;}
+   .right3 {float: right; width: 300px; height: 283px; margin-right: 270px}
+
+   .create{height: 300px;}
+   .left4 {float: left; width: 650px; height: 250px;}
+   .right4 {float: right; width: 300px; height: 283px; margin-right: 270px}
+   .right4 img{width:100%;height: 100%;}
+
+   /*footer*/
+   .footer { height: 50px;
+      margin-left: 513px;}

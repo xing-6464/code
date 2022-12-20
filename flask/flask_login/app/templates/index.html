@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <meta charset="UTF8">
+        <title>模特首页</title>
+		<link rel="stylesheet" href="static/css/index.css"/>
+    </head>
+    <body background="static/images/2.png" style="background-size: cover;">
+        <!--导航栏-->
+        <div class="header" style="background-color: rgb(0, 0, 0,0.8);">
+        </br>
+            <div class="lanmu">
+                &nbsp;&nbsp;&nbsp;&nbsp;<a href="/" style="margin-left: 35px;color:white">首页</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="color:white" href="/mi">模特职员</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="color:white" href="/us">招聘</a>
+            </div>
+            <div class="search">
+                <form action="" class="parent">
+                    <input type="text" class="search" placeholder="搜索">
+                    <input type="button" name="" id="" class="btn">
+                </form>
+            </div>
+            <div class="index">
+                <p>
+                    <a href = "javascript:void(0)" onclick = "document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'" style="color: white;margin-right: 80px;">
+                        登录
+                    </a>
+                </p> 
+                <div id="light" class="white_content">
+                    <a href="javascript:void(0)" onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'" style="color: black;float: right;margin-top: -13px;">X</a>
+                    </br>
+                    <!-- 登陆部分代码 -->
+                    <form action="/" method="post" style="margin-top: 24px;">
+                        <input type="text" name="account" id="" value="" placeholder="&nbsp;请输入用户名"  style="width: 100%;height: 15%;border-radius: 13px;"/>
+                    </br>
+                        <input type="password" name="password" id="" value="" placeholder="&nbsp;请输入密码" style="width: 100%;height: 15%;border-radius: 13px;margin-top: 15px;">
+                        <input type="submit" value="提交" style="width: 100%;height: 18%;margin-top: 34px;background-color: black; color: white;"/>
+                    </form>
+                    
+                </div> 
+                <div id="fade" class="black_overlay"></div> 
+            </div>
+        </div>
+        <!--主体-->
+        <div class="main">
+            <div class="left"><i style="size: a3;font-size: 172px;align-content: baseline;color: wheat;color: w;
+            ">MODEL</i></div>
+            <div class="word" style="color:grey;">
+                <hr>
+                You have what it takes to accomplish your dreams and succeed. We know the fear that comes with the territory of pursuing your professional dreams, but they don’t have to hold you back. Live events, workshops, and exclusive events are tools that Women Ignite offers women and men to help you crush your obstacles and seize opportunities for your success.
+            </div>
+            <div class="content" >
+                <img src="static/images/3.jpg"/>
+            </div>
+            <div class="content1">
+                <img src="static/images/7.jpg"/>
+            </div>
+            <div class="right" >
+                <img src="static/images/6.jpg"/>
+            </div>
+        </div>
+        <!--版权-->
+        <div class="footer">
+        </br>
+        <center> 版权由xxx所有</center>
+        </div>
+	 </body>
+</html>

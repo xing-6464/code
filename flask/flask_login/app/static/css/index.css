@@ -1,0 +1,89 @@
+   /*header*/
+   .header {height: 60px;
+      margin-top: -10px;
+      width: 1530px;
+      margin-left: -20px;}
+   .lanmu{float: left;
+      margin-left: 40px;}
+   .search{float: left;
+      margin-left: 142px;
+      height: 37px;
+      width: 331px;
+      border-radius: 20px;}
+   
+   .btn {height: 27px;
+      width: 28px;
+      position: absolute;
+      background-color: white;
+      top: 24px;
+      left: 285px;
+      border: 3px solid gray;
+      outline: none;
+      cursor: pointer;
+      border-radius: 25px;
+      margin-left: 626px;
+   }
+
+   .index{float:right;margin-top: -8px;}
+
+   .black_overlay{ 
+      display: none; /* 此元素不会被显示*/
+      position: absolute; 
+      top: 0%; 
+      left: 0%; 
+      width: 100%; 
+      height: 100%; 
+      background-color: black; 
+      z-index:1001; /* z-index 属性设置元素的堆叠顺序。拥有更高堆叠顺序的元素总是会处于堆叠顺序较低的元素的前面。*/
+      -moz-opacity: 0.8; 
+      opacity:0.7; /* opacity 属性设置元素的不透明级别。*/
+      filter: alpha(opacity=88);  
+   /* 所有浏览器都支持 opacity 属性。   注释：IE8 以及更早的版本支持替代的 filter 属性。例如：filter:Alpha(opacity=50)。*/
+  } 
+  .white_content {display: none;
+   position: absolute;
+   top: 28%;
+   left: 35%;
+   width: 30%;
+   height: 34%;
+   padding: 20px;
+   background-color: white;
+   z-index: 1002;
+   overflow: auto;
+  }
+
+   /*main*/
+   .main { height: 750px}
+   .left { float: left;
+      width: 650px;
+      height: 250px;
+      margin-top: 148px;
+      margin-left: 15px;}
+
+   .content{float: left;
+      width: 122px;
+      margin-left: 154px;
+      margin-top: 256px;
+      height: 411px;}
+   .content img{width:100%;height: 100%;}
+
+   .content1{float: left;
+      width: 215px;
+      margin-left: 43px;
+      margin-top: 307px;
+      height: 304px;}
+   .content1 img{width:100%;height: 100%;}
+   
+   .right {float: right;
+      width: 222px;
+      height: 684px;}
+   .right img{width: 100%;height: 100%;}
+   
+   .word{    float: left;
+      width: 626px;
+      margin-top: 351px;
+      margin-left: -560px;
+      margin-right: -25px;}
+
+   /*footer*/
+   .footer { height: 50px;}
